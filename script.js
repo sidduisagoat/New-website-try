@@ -122,7 +122,7 @@ threshold:0.1
 
 const animated =
 document.querySelectorAll(
-".glass-card,.need-card,.action-card,.story-card,.impact-card"
+".glass-card,.need-card,.action-card,.story-card,.impact-card,.timeline-content"
 );
 
 animated.forEach(item => {
