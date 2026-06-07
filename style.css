@@ -80,22 +80,18 @@ color:var(--mid);
 .hero{
 
 height:100vh;
+
 background:
 linear-gradient(
-rgba(0,0,0,.55),
-rgba(0,0,0,.55)
-),
-url("hero.jpg");
-
-background-size:cover;
-background-position:center;
-position:relative;
+135deg,
+#304D30,
+#739072
+);
 
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-
 }
 
 .hero-content{
@@ -485,19 +481,14 @@ transform:scale(1.04);
 
 .reflection-section{
 
-position:relative;
-
 padding:140px 10%;
 
 background:
 linear-gradient(
-rgba(0,0,0,.65),
-rgba(0,0,0,.65)
-),
-url("reflection.jpg");
-
-background-size:cover;
-background-position:center;
+135deg,
+#304D30,
+#466646
+);
 
 color:white;
 text-align:center;
