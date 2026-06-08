@@ -565,3 +565,58 @@ padding:90px 6%;
 }
 
 }
+/* CHESS HERO */
+
+.chessboard{
+display:grid;
+grid-template-columns:repeat(5,90px);
+gap:20px;
+justify-content:center;
+margin-top:50px;
+}
+
+.piece{
+width:90px;
+height:90px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-size:3rem;
+
+background:rgba(255,255,255,0.12);
+border:2px solid rgba(255,255,255,0.25);
+
+border-radius:20px;
+
+cursor:pointer;
+
+transition:all .3s ease;
+}
+
+.piece:hover{
+transform:translateY(-10px) scale(1.1);
+background:white;
+color:#304D30;
+box-shadow:0 15px 30px rgba(0,0,0,.25);
+}
+
+.hero-subtitle{
+margin-top:20px;
+font-size:1.2rem;
+}
+
+@media(max-width:900px){
+
+.chessboard{
+grid-template-columns:repeat(3,80px);
+}
+
+.piece{
+width:80px;
+height:80px;
+font-size:2.5rem;
+}
+
+}
