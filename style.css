@@ -76,20 +76,22 @@ color:var(--mid);
 }
 
 /* HERO */
-
-.hero{
-
 .hero{
 min-height:100vh;
 padding-top:120px;
 padding-bottom:80px;
-  
-background:
-linear-gradient(
+
+background:linear-gradient(
 135deg,
 #304D30,
 #739072
 );
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
 
 display:flex;
 justify-content:center;
@@ -613,7 +615,11 @@ font-size:1.2rem;
 @media(max-width:900px){
 
 .chessboard{
-grid-template-columns:repeat(3,80px);
+grid-template-columns:repeat(2,80px);
+justify-content:center;
+justify-content:center;
+margin-top:50px;
+margin-bottom:25px;
 }
 
 .piece{
@@ -622,4 +628,10 @@ height:80px;
 font-size:2.5rem;
 }
 
+}
+.piece-labels{
+margin-top:20px;
+font-size:0.95rem;
+opacity:0.85;
+color:white;
 }
