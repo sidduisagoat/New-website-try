@@ -79,8 +79,11 @@ color:var(--mid);
 
 .hero{
 
-height:100vh;
-
+.hero{
+min-height:100vh;
+padding-top:120px;
+padding-bottom:80px;
+  
 background:
 linear-gradient(
 135deg,
@@ -107,7 +110,7 @@ color:white;
 width:220px;
 height:auto;
 display:block;
-margin:40px auto 25px auto;
+margin:20px auto;
 }
 
 .hero h1{
